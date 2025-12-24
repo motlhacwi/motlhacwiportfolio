@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motlhacwi Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata&display=swap" rel="stylesheet">
+
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="description" content="Portfolio of Mojalefa Steven Motlhacwi – IT student, web developer, UI/UX designer, mobile app developer.">
+
+    <style>
+        /* Contact Section Font Size Fix */
+        .contact-container {
+            font-size: 16px;
+        }
+
+        .contact-info h2 {
+            font-size: 28px;
+        }
+
+        .contact-info p,
+        .contact-info ul li,
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="#home" class="logo">Motlhacwi.</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#resume">Resume</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home active" id="home">
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/lefazo.JPG" alt="Profile Picture" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <div class="home-detail">
+            <h1>Mojalefa Steven Motlhacwi</h1>
+            <h2>I am a
+                
+                <span style="--i:4;" data-text="Coder">Coder</span>
+                <span style="--i:3;" data-text="freelancer">freelancer</span>
+                <span style="--i:2;" data-text="Network Technician">Network Technician</span>
+                <span style="--i:1;" data-text="Systems Administrator">Systems Administrator</span>
+            </h2>
+            <p>
+                Enthusiastic and motivated IT professional with strong organizational skills, 
+                keen attention to detail, and the ability to perform effectively under pressure. Eager to apply technical knowledge and problem-solving abilities in real-world IT environments.
+            </p>
+
+            <div class="btn-sci">
+                <a href="motlhacwiCV.pdf" class="btn" download>Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/motlhacwi" target="_blank"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/motlhacwi2020" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://wa.me/27845745842" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <i class="bx bx-network-chart"></i>
+                <h3>Network Setup & Installation</h3>
+                <p>Setting up home or small-business networks, installing routers, switches, and Wi-Fi access points, configuring LAN/WAN cabling (Ethernet, fiber basics).</p>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-shield-quarter"></i>
+                <h3>Network Security Service</h3>
+                <p>Firewall installation & configuration, securing Wi-Fi networks, basic penetration testing, network vulnerability assessments, setting up VPNs for remote work.</p>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-support"></i>
+                <h3>IT Support & Troubleshooting</h3>
+                <p>Desktop/laptop troubleshooting, network connectivity issues, printer & device support, remote tech support.</p>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-server"></i>
+                <h3>Server Setup & Administration</h3>
+                <p>Windows Server setup, Active Directory, file sharing/permissions, small office server maintenance.</p>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-line-chart"></i>
+                <h3>Network Monitoring & Maintenance</h3>
+                <p>Monitoring network performance, checking logs, updating firmware, ensuring uptime, preventing outages.</p>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-cloud-upload"></i>
+                <h3>Cloud & Hosting Services</h3>
+                <p>Setting up cloud storage (Azure), email hosting setup, migrating business to cloud systems.</p>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-world"></i>
+                <h3>Website Setup (Basic)</h3>
+                <p>Setting up WordPress sites, domain and hosting configuration, email linked to domain.</p>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-briefcase-alt-2"></i>
+                <h3>IT Consulting</h3>
+                <p>Network design, choosing hardware, improving network performance, creating IT policies.</p>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Java Programming</h3>
+                <p>Advanced Java development, UI programming, building interactive applications.</p>
+            </div>
+            
+            <div class="service-box">
+                <i class="bx bx-phone"></i>
+                <h3>VOIP & Communication</h3>
+                <p>Installing VoIP phones, configuring PBX systems, setting up communication servers (3CX).</p>
+            </div>
+
+            <div class="service-box">
+                <i class="bx bx-video-plus"></i>
+                <h3>CCTV & Network Surveillance Setup</h3>
+                <p>Install IP cameras, configuring NVRs, remote monitoring setups, securing camera networks.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">Hardworking and dedicated IT professional with a strong passion for technology and problem-solving.</p>
+
+                <button type="button" class="resume-btn">Experience</button>
+                <button type="button" class="resume-btn">Education</button>
+                <button type="button" class="resume-btn">Skills</button>
+                <button type="button" class="resume-btn">About</button>
+
+            </div>
+
+            <div class="resume-box">
+                <!-- Experience -->
+                <div class="resume-detail active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p>PREVIOUS WORK, ROLE PLAYED, DURATION</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2025 – (6 month)</p>
+                            <h3>Assistant Teacher</h3>
+                            <p class="company">Atlarelang Primary School</p>
+                            <p>Supporting learners academically and socially.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020 – 2021(11 month)</p>
+                            <h3>General Worker</h3>
+                            <p class="company">EPWP</p>
+                            <p>Community-based work and environmental maintenance.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="resume-detail">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p>CERTIFICATIONS</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2017</p>
+                            <h3>National Senior Certificate (Grade 12)</h3>
+                            <p class="company">Leruntse Lesedi Secondary School</p>
+                            <p>Math and Science stream</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020</p>
+                            <h3>Certificate of Completion</h3>
+                            <p class="company">Microsoft</p>
+                            <p>Microsoft Digital Literacy</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Ethical Hacking</h3>
+                            <p class="company">Cisco Networking Academy</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2025</p>
+                            <h3>Diploma in Information Technology</h3>
+                            <p class="company">Tshwane University of Technology</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="resume-detail skill">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p>The key skills i have mastered through hands-on experience</p>
+                    <div class="resume-list">
+                        <div class="resume-item"><i class="bx bxl-html5"></i><span>HTML5</span></div>
+                        <div class="resume-item"><i class="bx bxl-css3"></i><span>CSS</span></div>
+                        <div class="resume-item"><i class="bx bxl-javascript"></i><span>JavaScript</span></div>
+                        <div class="resume-item"><i class="bx bxl-java"></i><span>Java</span></div>
+                        <div class="resume-item"><i class="bx bx-network-chart"></i><span>Networking</span></div>
+                        <div class="resume-item"><i class="bx bx-support"></i><span>IT Support</span></div>
+                    </div>
+                </div>
+
+                <!-- About -->
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p>PERSONAL INFORMATION</p>
+                    <div class="resume-list">
+                        <div class="resume-item"><p>Name <span>Mojalefa Steven</span></p></div>
+                        <div class="resume-item"><p>Surname <span>Motlhacwi</span></p></div>
+                        <div class="resume-item"><p>Gender <span>Male</span></p></div>
+                        <div class="resume-item"><p>Status <span>Single</span></p></div>
+                        <div class="resume-item"><p>Languages <span>English, Tswana</span></p></div>
+                        <div class="resume-item"><p>Experience <span>1 years & 5 months</span></p></div>
+                        <div class="resume-item"><p>Full-time <span>Available</span></p></div>
+                        <div class="resume-item"><p>Freelance <span>Available</span></p></div>
+  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <!-- Project Details -->
+            <div class="portfolio-detail active">
+                <p class="num">01</p>
+                <h3>Java Programming</h3>
+                <p>gym booking application</p>
+                <div class="tech">
+                    <p>java</p>
+                </div>
+                <div class="live-github">
+                   
+                    <a href="https://github.com/motlhacwi/gymbookingApp"><i class="bx bxl-github"></i><span>GitHub repository</span></a>
+                </div>
+            </div>
+
+            <div class="portfolio-detail">
+                <p class="num">02</p>
+                <h3>Assembly Programming</h3>
+                <p>programming microcontroller(PIC16F627A)using assembly language to switch LED on and off</p>
+                <div class="tech">
+                    <p>assembly language</p>
+                </div>
+                <div class="live-github">
+                     
+                    <a href="https://github.com/motlhacwi/programming-microcontroller"><i class="bx bxl-github"></i><span>GitHub repository</span></a>
+                </div>
+            </div>
+
+            <div class="portfolio-detail">
+                <p class="num">03</p>
+                <h3>Java Programming</h3>
+                <p>salon application that display daily,monthly and annual revenue</p>
+                <div class="tech">
+                    <p>java</p>
+                </div>
+                <div class="live-github">
+                    
+                    <a href="https://github.com/motlhacwi/salon-booking-app"><i class="bx bxl-github"></i><span>GitHub repository</span></a>
+                </div>
+            </div>
+
+           
+        </div>
+
+        <div class="portfolio-box">
+            <!-- Image Carousel -->
+            <div class="portfolio-carousel">
+                <div class="img-slide">
+                    <div class="img-item">
+                        <img src="images/gymMembership.PNG" alt="project image">
+                    </div>
+                </div>
+                <div class="img-slide">
+                    <div class="img-item">
+                        <img src="images/proteus.jpg" alt="project image">
+                    </div>
+                </div>
+                <div class="img-slide">
+                    <div class="img-item">
+                        <img src="images/salonApp.PNG" alt="project image">
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Carousel Navigation -->
+            <div class="navigation">
+                <button class="arrow-left disabled"><i class="bx bx-chevron-left"></i></button>
+                <button class="arrow-right"><i class="bx bx-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <!-- Left Side: Info -->
+        <div class="contact-info">
+            <h2>LET'S WORK TOGETHER</h2>
+            <p>Feel free to reach out anytime. I'm always open to discuss new ideas, collaboration, or opportunities!</p>
+            <ul>
+                <li><i class="bx bx-phone"></i> <span>(+27) 845 745 842</span></li>
+                <li><i class="bx bx-envelope"></i> <span>mrmotlhacwi@gmail.com</span></li>
+                <li><i class="bx bx-map"></i> <span>South Africa</span></li>
+            </ul>
+        </div>
+
+        <!-- Right Side: Form -->
+        <form id="contact-form" class="contact-form">
+            <div class="input-group">
+                <input type="text" name="user_name" required placeholder="Full Name">
+                <input type="email" name="user_email" required placeholder="Email Address">
+            </div>
+
+            <input type="tel" name="user_phone" placeholder="Phone Number"> <!-- Phone input added -->
+
+            <input type="text" name="subject" placeholder="Subject"> <!-- Subject input added -->
+
+            <textarea name="message" rows="8" placeholder="Your message..." required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Include EmailJS SDK -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  // Initialize EmailJS
+  emailjs.init("Ny1bd_QwMaxayP2Gl");
+
+  const contactForm = document.getElementById("contact-form");
+
+  contactForm.addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const serviceID = "service_u6ggo4v";
+      const templateID = "template_8v8u0g7";
+
+      emailjs.sendForm(serviceID, templateID, this)
+      .then(() => {
+          alert("Message sent successfully!");
+          contactForm.reset(); // Clear form
+      }, (error) => {
+          console.error("FAILED...", error);
+          alert("Oops! Something went wrong, please try again.");
+      });
+  });
+</script>
+
+    <script src="script.js"></script>
+</body>
+</html>
